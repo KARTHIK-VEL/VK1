@@ -21,12 +21,7 @@ async fn spawn_widget(app: AppHandle, label: String, x: f64, y: f64, url: String
     .build()
     .map_err(|e| e.to_string())?;
 
-    // Apply vibrancy (Acrylic for Windows)
-    #[cfg(target_os = "windows")]
-    {
-        window.set_vibrancy(Some(tauri::vibrancy::Vibrancy::Acrylic))
-            .map_err(|e| e.to_string())?;
-    }
+    // Vibrancy and Glassmorphism are handled via tauri.conf.json transparency settings in v2
 
     Ok(())
 }
