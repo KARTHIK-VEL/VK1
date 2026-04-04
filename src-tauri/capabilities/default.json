@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["*"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "shell:allow-open",
+    "window:allow-create",
+    "window:allow-set-vibrancy",
+    "window:allow-set-shadow",
+    "window:allow-set-decorations",
+    "window:allow-set-skip-taskbar",
+    "window:allow-set-always-on-bottom",
+    "window-state:default"
+  ]
+}
