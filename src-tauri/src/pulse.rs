@@ -1,5 +1,5 @@
 use std::time::Duration;
-use tauri::{AppHandle, Emitter, Manager};
+use tauri::{AppHandle, Emitter};
 use serde::Serialize;
 use sysinfo::System;
 use std::sync::{Arc, Mutex};

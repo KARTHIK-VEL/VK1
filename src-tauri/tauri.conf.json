@@ -25,6 +25,17 @@
       "csp": null
     }
   },
+  "plugins": {
+    "opener": {
+      "default": true
+    },
+    "shell": {
+      "default": true
+    },
+    "window-state": {
+      "default": true
+    }
+  },
   "bundle": {
     "active": true,
     "targets": "all",

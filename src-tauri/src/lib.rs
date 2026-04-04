@@ -1,11 +1,11 @@
 mod pulse;
 
-use tauri::{AppHandle, Manager, WebviewUrl, WebviewWindowBuilder};
+use tauri::{AppHandle, WebviewUrl, WebviewWindowBuilder};
 use pulse::PulseService;
 
 #[tauri::command]
 async fn spawn_widget(app: AppHandle, label: String, x: f64, y: f64, url: String) -> Result<(), String> {
-    let window = WebviewWindowBuilder::new(
+    let _window = WebviewWindowBuilder::new(
         &app,
         &label,
         WebviewUrl::App(url.into())
