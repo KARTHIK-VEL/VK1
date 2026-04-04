@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart, Zap, Award, Activity } from "lucide-react";
+import { Heart, Zap, Activity } from "lucide-react";
 
 export const CodeBuddy: React.FC = () => {
   // Mock data for the pixel-art pet's state

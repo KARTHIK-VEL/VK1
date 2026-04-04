@@ -3,9 +3,9 @@ import { cn } from "../lib/utils";
 import { 
   Plus, Flame, Cpu, MemoryStick, Code, Globe, Timer, Hash, Newspaper, Palette, 
   Droplets, Laptop, ShieldCheck, Database, LayoutGrid, GitCommit, Rocket, GitBranch,
-  Search, Award, Target, Dice5, AlertTriangle, Thermometer, BookOpen, Activity,
-  Gauge, Link, BookMarked, Calendar, Clipboard, Braces, Pipette, MousePointer2,
-  Table, MessageCircle, ShieldAlert, HandCoins, Car, Quote, Heart, Zap, Clock
+  Search, Target, Dice5, AlertTriangle, Thermometer, BookOpen, Activity,
+  Gauge, Link, BookMarked, Calendar, Clipboard, Braces, MessageCircle, 
+  HandCoins, Car, Quote, Heart, Clock
 } from "lucide-react";
 import { SiGithub, SiLeetcode } from "react-icons/si";
 

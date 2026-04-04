@@ -1,5 +1,5 @@
 import React from "react";
-import { Activity, CheckCircle2, Globe, Wifi } from "lucide-react";
+import { Activity, Wifi } from "lucide-react";
 
 export const APIHealth: React.FC = () => {
   // Mock API health data for AI endpoints

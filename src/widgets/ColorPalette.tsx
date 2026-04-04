@@ -1,5 +1,5 @@
 import React from "react";
-import { Palette, Copy, Pipette, Activity } from "lucide-react";
+import { Palette, Copy, Pipette } from "lucide-react";
 
 export const ColorPalette: React.FC = () => {
   // Mock color palette data
